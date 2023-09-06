@@ -56,7 +56,8 @@ const SingleMoviePage = () => {
   const { item, error, loading } = state;
 
   const [_, title] = location.search.split("?name=");
-
+  console.log(location.search);
+  console.log(title);
   return (
     <>
       <Helmet>
