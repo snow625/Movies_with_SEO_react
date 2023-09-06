@@ -29,7 +29,7 @@
       "--no-sandbox"
     ],
     "asyncScriptTags": true,
-    "skipThirdPartyRequests": false
+    "skipThirdPartyRequests": true
   },
   "eslintConfig": {
     "extends": [
