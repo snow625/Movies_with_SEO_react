@@ -60,8 +60,8 @@ const SingleMoviePage = () => {
   // console.log(title);
   const [searchParams] = useSearchParams();
 
-  const title = searchParams.get("title");
-  // const title = id;
+  // const title = searchParams.get("title");
+  const title = `${id}TITLE`;
 
   console.log(`title`, title);
   return (
