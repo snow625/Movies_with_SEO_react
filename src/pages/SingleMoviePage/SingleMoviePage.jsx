@@ -67,8 +67,8 @@ const SingleMoviePage = () => {
   return (
     <>
       <Helmet >
-        {title && title}
-        {!title && <title>Greether</title>}
+        {title ? <title>{title}</title>: <title>Greether</title> }
+       
         <meta name="title" content={title} />
         <meta
           name="description"
