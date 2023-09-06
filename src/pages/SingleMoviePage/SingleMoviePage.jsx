@@ -66,7 +66,7 @@ const SingleMoviePage = () => {
   console.log(`title`, title);
   return (
     <>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>{`${title} | Greether`}</title>
         <meta name="title" content={title} />
         <meta
