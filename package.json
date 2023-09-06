@@ -27,7 +27,8 @@
     "puppeteerArgs": [
       "--disable-setuid-sandbox",
       "--no-sandbox"
-    ]
+    ],
+    "asyncScriptTags": true
   },
   "eslintConfig": {
     "extends": [
