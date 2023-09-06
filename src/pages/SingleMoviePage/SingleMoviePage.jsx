@@ -66,8 +66,8 @@ const SingleMoviePage = () => {
   console.log(`title`, title);
   return (
     <>
-      <Helmet>
-        {title ? <title>{title}</title> : <title>Greether</title>}
+      <Helmet data-react-helmet="true">
+        <title>{title}</title>
 
         <meta name="title" content={title ? title : `Greether`} />
         <meta
