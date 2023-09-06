@@ -66,10 +66,10 @@ const SingleMoviePage = () => {
   console.log(`title`, title);
   return (
     <>
-      <Helmet >
-        {title ? <title>{title}</title>: <title>Greether</title> }
-       
-        <meta name="title" content={title} />
+      <Helmet>
+        {title ? <title>{title}</title> : <title>Greether</title>}
+
+        <meta name="title" content={title ? title : `Greether`} />
         <meta
           name="description"
           content={`GE helps women travel safer by connecting them to local Greeters they can book to navigate ${title}  'Mexico city', ${title}  'Mexico'
