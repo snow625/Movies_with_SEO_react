@@ -61,6 +61,7 @@ const SingleMoviePage = () => {
   const [searchParams] = useSearchParams();
 
   const title = searchParams.get("title");
+  console.log(`title`, title);
   return (
     <>
       <Helmet>
