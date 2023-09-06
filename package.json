@@ -23,6 +23,12 @@
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--disable-setuid-sandbox",
+      "--no-sandbox"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
