@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 40px;
+}
+
+.poster {
+  width: 360px;
+}
+.wraperDescripton {
+  margin-left: 30px;
+  text-align: initial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.userScore {
+  font-size: 16px;
+}
+.Overviev {
+  font-size: 20px;
+  font-weight: 500;
+}
+.OvervievText {
+  font-size: 16px;
+}

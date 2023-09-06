@@ -1,0 +1,17 @@
+.error {
+  font-size: 30px;
+}
+.castWrapper {
+  text-align: initial;
+}
+.list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.nameReal {
+  font-weight: 500;
+}
+.item {
+  width: 100px;
+}

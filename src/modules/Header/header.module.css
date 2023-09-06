@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 90px;
+  padding-left: 50px;
+  background-color: rgb(104, 104, 182);
+  border-radius: 5px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.logo {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(78, 70, 70);
+  padding: 10px;
+  font-weight: 600;
+}
+
+.activeLink {
+  font-size: 20px;
+  text-decoration: none;
+
+  padding: 10px;
+  font-weight: 600;
+  color: wheat;
+}
