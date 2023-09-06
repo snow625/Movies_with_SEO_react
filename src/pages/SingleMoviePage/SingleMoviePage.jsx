@@ -17,7 +17,9 @@ import { Helmet } from "react-helmet-async";
 
 const SingleMoviePage = () => {
   const { id: StrId } = useParams();
-  const id = Number(StrId);
+  const [idSR, title] = StrId.split('&');
+
+  const id = Number(idSR);
 
   const [state, setState] = useState({
     item: {},
@@ -58,9 +60,9 @@ const SingleMoviePage = () => {
   // const [_, title] = location.search.split("?name=");
   // console.log(location.search);
   // console.log(title);
-  const [searchParams] = useSearchParams();
+  // const [searchParams] = useSearchParams();
 
-  const title = searchParams.get("title")?searchParams.get("title"):'NO Title' ;
+  // const title = searchParams.get("title")?searchParams.get("title"):'NO Title' ;
   // const title = `${id}TITLE`;
 
   console.log(`title`, title);

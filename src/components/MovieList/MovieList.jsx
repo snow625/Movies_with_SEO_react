@@ -9,7 +9,7 @@ const MovieList = ({ items }) => {
     const { id, title, poster_path } = el;
     return (
       <li className={s.item} key={id}>
-        <Link to={`/movies/${id}?title=${title}`}  state={{ from }}  className={s.link}>
+        <Link to={`/movies/${id}&${title}`} state={{ from }} className={s.link}>
           <img
             className={s.poster}
             src={`https://image.tmdb.org/t/p/w600_and_h900_bestv2${poster_path}`}
