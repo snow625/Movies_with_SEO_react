@@ -60,14 +60,15 @@ const SingleMoviePage = () => {
   // console.log(title);
   const [searchParams] = useSearchParams();
 
-  // const title = searchParams.get("title");
-  const title = `${id}TITLE`;
+  const title = searchParams.get("title");
+  // const title = `${id}TITLE`;
 
   console.log(`title`, title);
   return (
     <>
       <Helmet >
-        <title>{`${title} | Greether`}</title>
+        {title && title}
+        {!title && <title>Greether</title>}
         <meta name="title" content={title} />
         <meta
           name="description"

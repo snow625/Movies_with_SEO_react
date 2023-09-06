@@ -28,7 +28,8 @@
       "--disable-setuid-sandbox",
       "--no-sandbox"
     ],
-    "asyncScriptTags": true
+    "asyncScriptTags": true,
+    "preconnectThirdParty": true
   },
   "eslintConfig": {
     "extends": [
